@@ -1,11 +1,11 @@
 import java.util.Scanner;
-public class zadanie1 {
+public class task1 {
 public static void main (String[] args){
-	Scanner skan = new Scanner(System.in);
-	System.out.print("Podaj cyfrę: ");
-	int a = skan.nextInt();
+	Scanner scan = new Scanner(System.in);
+	System.out.print("Please write a number: ");
+	int a = scan.nextInt();
 	int tab[] = new int [a+1];
-	System.out.println("Liczby pierwsze to: ");
+	System.out.println("The prime number are: ");
 		for (int i=2; i<=a; i++){
 		for	(int x=2; x<i; x++){ 	
 		if (i%x == 0){tab[i] = i; break;}}
